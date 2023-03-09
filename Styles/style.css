@@ -1,0 +1,23 @@
+body{
+    background-image: url("../Images/Quiz\ Background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#text{
+    justify-content: center;
+    display: flex;
+    margin-top: 200px;
+    margin-right:40%;
+    
+}
+
+#button{
+    justify-content: center;
+    display: flex;
+    margin-top: 80px;
+    margin-right: 40%;
+    
+}

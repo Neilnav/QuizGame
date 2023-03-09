@@ -1,0 +1,68 @@
+body{
+    background-image: url("../Images/Background1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.scoreboard{
+    padding-left: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 300px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.scoreboard_score{
+        font-size: 2em;
+}
+
+#images{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: -40px;
+    
+}
+
+#images img{
+    position: absolute;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#images img.top:hover{
+    opacity: 0;
+
+}
+
+#image2{
+     position: relative;
+     height: 300px;
+    width: 300px;
+     margin: 0 auto;
+    opacity: 0%;
+    margin-left: 50%;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#output{
+    margin-left: 45%;
+}
+
+h2{
+    font-size: 60px;
+}
+
+@keyframes showPic {
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
+    0% {opacity: 0%;}
+}

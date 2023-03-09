@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Quiz Time</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../Styles/quiz.css'>
+    
+</head>
+<body>
+    <h1 id= "time">Timer:0</h1>
+    <div class="scoreboard">
+        <h1 id="score">Score:0</div>
+    </div>
+    
+    <form>
+    <legend id="question">1st question: in pokemon franchise, whats the first fire starter called?</legend>
+        <input type="radio" name="guess"  id="answer1">
+        <label for="Cyndaquil">Cyndaquil</label>
+        <br>
+        <input type="radio" name="guess" id="answer2">
+        <label for="Pikachu">Pikachu</label>
+        <br>
+        <input type="radio" name="guess"  id="answer3">
+        <label for="Charmander">Charmander</label>
+        <br>
+        <input type="radio" name="guess"  id="answer4">
+        <label for="FireDragon">FireDragon</label>
+        <br>
+        <br>        
+        <input type="button" value="Submit">
+        <button type="button" id="button2">Next pic!</button>
+        
+    </form>
+    
+    
+    <div style="float: middle; margin-right: 800px;" id="images">
+        <img class="bottom" src="../Images/Charmander2.png"/>
+        <img class="top" src="../Images/CharmanderSilhouette.png"/>
+        
+    </div>
+    <h2 id="output"></h2>
+    <div id="image2">  
+        <img src="../Images/KingDedede.png"/>
+    </div>
+
+    <script src='../JS/quiz.js'></script>
+</body>
+</html>
